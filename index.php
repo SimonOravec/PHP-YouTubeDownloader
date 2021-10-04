@@ -15,9 +15,7 @@ require('./app/autoload.php');
 	<div class="panel-heading bg-blue text-white"><b>YouTube Downloader</b></div>
 	<div class="panel-body bg-white">
 		<noscript><div class="alert alert-red mg-auto width500 text-center">You must enable JavaScript to use this application</div><br></noscript>
-		<form class="text-center" role="form" id="form" method="post" enctype="multipart/form-data">
-				<input hidden name="upload" value="1">
-				<input hidden id="otk" name="otk" value="0">
+		<form class="text-center" role="form" id="form" method="post">
 				<input class="input" style="margin-bottom:10px;width:75%;text-align:center;" type="text" name="yt_uri" id="yt_uri" placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ" required disabled><br>
 				<button type="button" id="btn_download" class="btn btn-blue mg-auto" disabled>Download MP3</button>
 			<small class="display-block" style="margin-top:5px;">*Maximum video length is 30 minutes</small>
