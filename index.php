@@ -28,8 +28,8 @@ require('./app/autoload.php');
 </div>
 </div>
 <!-- Scripts -->
-<script src="//static.simonoravec.eu/v1/jquery/3.5.1/jquery.min.js"></script>
-<script src="//static.simonoravec.eu/v1/jquery/3.5.1/jquery.form.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="./assets/jquery.form.min.js"></script>
 <script src="./assets/ytdl.js"></script>
 
 <?php if ($cfg['ENABLE-RECAPTCHA'] == true) { ?><script src="https://www.google.com/recaptcha/api.js" async defer></script><?php echo PHP_EOL; } ?>
