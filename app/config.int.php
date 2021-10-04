@@ -8,7 +8,7 @@ $cfg = [
     'YOUTUBE-DL-PATH'     => '/usr/local/bin/youtube-dl',
     'FFMPEG-PATH'         => '/usr/bin/ffmpeg',
 
-    'MP3-DIR-PATH'        => '/var/www/dev/subdom/ytdl/files/',
+    'MP3-DIR-PATH'        => '/var/www/ytdl/files/',
     //End of mandatory settings
 
     //Optional settings
