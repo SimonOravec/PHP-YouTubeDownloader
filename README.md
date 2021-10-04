@@ -6,7 +6,7 @@ This is a simple PHP application that downloads MP3s from YouTube.
 You will need a server with [youtube-dl](https://youtube-dl.org/) and [ffmpeg](https://www.ffmpeg.org/) installed for this to work.  
 Tested only on Linux (may work on Windows too)
 
-This application also uses YouTube API v3, you will need to create your credentials (https://developers.google.com/youtube/v3/getting-started)
+This application uses YouTube API v3, you will need to create your credentials (https://developers.google.com/youtube/v3/getting-started)
 
 There is also optional reCAPTCHA v2 (invisble) support (Register here: https://www.google.com/recaptcha/about/)  
 [!] *Using reCAPTCHA is highly advised if you want to host a public downloader to prevent spam*
